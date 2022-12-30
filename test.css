@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+body{
+    font-family: 'Epilogue', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    height: 100vh;
+    width:  95%;
+    margin: auto;
+   
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem;
+}
+
+.dropdown-menu{
+    border: none !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.container-fluid{
+    text-align: center;
+}
+
+.sub-div{
+    display: flex; 
+    height: 80vh;
+    width: 80%;
+    margin: auto;
+}
+.sub1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+
+.sub2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.sub2 img{
+    margin: auto 0 0 auto;
+    width: 75%;
+    
+}
+.a{
+    height: 15%;
+    width: 100%; 
+}
+.b{
+    width: 100%;   
+}
+.c{
+    width: 100%;
+}
+.d{
+    width: 100%;    
+}
+.e{
+    width: 100%;  
+    display: flex;  
+    align-items: flex-end;
+}
+
+.partnership-logos{
+    width: 25%;
+    text-align: left;
+}
+
+.b h1{
+    font-weight: 700;
+    font-size: 80px;
+}
+p{
+    font-size: 18px;
+    color: hsl(0, 0%, 41%);
+    font-weight: 500;
+    margin-bottom: 1rem
+}
+#butn:hover{
+    color:black;
+    background-color: white;
+}
+a h6:hover{
+    color:black;
+    background-color: white; 
+}
+.btn h6:hover{
+    color:black;
+    background-color: white; 
+}
+
+.arrow img{
+    transition: 0.5s;
+}
